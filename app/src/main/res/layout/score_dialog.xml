@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Selamat! Kamu berhasil"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/score_title"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score_progress_indicator"
+            android:layout_centerVertical="true"
+            app:trackColor="@color/gray"
+            tools:progress="60"
+            app:trackCornerRadius="20dp"
+            app:trackThickness="8dp"
+            app:indicatorSize="90dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="50%"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:id="@+id/score_progress_text"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="6 out of 10 questions are correct"
+        android:gravity="center"
+        android:id="@+id/score_subtitle"/>
+
+    <RelativeLayout
+        android:id="@+id/nextLevel_bg"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/nextLevel_btn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:src="@drawable/text_bg"
+            android:padding="1dp"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Level Berikutnya"
+            android:textColor="#3D1E1D"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="2dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/explanation_bg"
+        android:visibility="gone"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/explanation_btn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:src="@drawable/text_bg"
+            android:padding="1dp"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Pembahasan"
+            android:textColor="#3D1E1D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="2dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+       >
+
+        <ImageButton
+            android:id="@+id/finish_btn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:src="@drawable/text_bg"
+            android:padding="1dp"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Kembali"
+            android:textColor="#3D1E1D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="2dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/retry_btn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:src="@drawable/text_bg"
+            android:padding="1dp"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Ulangi Level"
+            android:textColor="#3D1E1D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="2dp"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

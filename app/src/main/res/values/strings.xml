@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="info_quiz">
+        Setiap level terdiri dari 10 soal dengan 4 pilihan jawaban.\nPemain harus dapat menjawab minimal 7 soal atau mendapatkan nilai 70 untuk dapat melanjutkan ke level berikutnya.\nJika pemain gagal menjawab minimal 7 soal dengan benar maka pemain harus mengulang level.\nPemain harus menjawab dalam waktu yang ditentukan, jika pemain waktu habis ,maka level otomatis selesai dan nilai yang didapatkan sesuai dengan jawaban yang berhasil dijawab dengan benar.
+    </string>
+    <string name="info_puzzle">
+        Terdapat beberapa level yang merupakan puzzle.\nPuzzle terdiri dari beberapa bagian gambar yang harus disusun pemain agar menjadi gambar utuh.\nJika pemain berhasil menyelesaiakan puzzle maka akan muncul penjelasan dari gambar yang sudah diselesaikan
+    </string>
+    <string name="info">Terdapat dua jenis level dalam game ini, yaitu <b>Kuis</b> dan  <b>Puzzle</b></string>
+</resources>

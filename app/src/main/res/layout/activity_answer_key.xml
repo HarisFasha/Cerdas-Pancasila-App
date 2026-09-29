@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/brown">
+
+<TextView
+    android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="PEMBAHASAN"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:paddingBottom="30dp"
+        android:background="@drawable/title_bg"
+        android:layout_gravity="center"
+    android:textColor="@color/dark_brown"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAnswerKey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:layout_margin="5dp"/>
+</LinearLayout>

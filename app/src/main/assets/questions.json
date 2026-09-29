@@ -1,0 +1,175 @@
+{
+  "levels": {
+    "1": {
+      "id": "1",
+      "level": "Level 1",
+      "time": "3",
+      "questionList": [
+        {
+          "soal": "Pancasila terdiri atas…sila.",
+          "pilihan": ["Dua", "Empat", "Lima", "Tiga"],
+          "jawaban": "Lima"
+        },
+        {
+          "soal": "Lala selalu bersyukur terhadap Tuhan Yang Maha Esa atas anugerah yang diberikan. Sikap Lala sesuai dengan Pancasila sila ke…",
+          "pilihan": ["2", "1", "4", "5"],
+          "jawaban": "1"
+        },
+        {
+          "soal": "Aku berwarna merah dan putih. Aku selalu dikibarkan pada saat upacara di hari senin atau di hari-hari tertentu. Siapakah aku?",
+          "pilihan": ["Bendera Indonesia", "Pancasila", "Bhineka Tunggal Ika", "Burung Garuda"],
+          "jawaban": "Bendera Indonesia"
+        },
+        {
+          "soal": "Kepala banteng adalah simbol sila ke … Pancasila",
+          "pilihan": ["Satu", "Dua", "Tiga", "Empat"],
+          "jawaban": "Empat"
+        },
+        {
+          "soal": "Lambang Negara Indonesia adalah ....",
+          "pilihan": ["Garuda Pancasila", "UUD 1945", "Bendera Merah Putih", "Padi dan Kapas"],
+          "jawaban": "Garuda Pancasila"
+        },
+        {
+          "soal": "Menjaga kebersihan rumah merupakan kewajiban…",
+          "pilihan": ["Ibu", "Ayah", "Nenek", "Semua anggota keluarga"],
+          "jawaban": "Semua anggota keluarga"
+        },
+        {
+          "soal": "Jika ada orang yang menanyakan namamu, maka kamu harus…",
+          "pilihan": ["Menjawab dengan menunduk", "Diam saja dan tidak peduli", "Menjawab dengan nada tinggi", "Menyebutkan nama dengan sopan"],
+          "jawaban": "Menyebutkan nama dengan sopan"
+        },
+        {
+          "soal": "Apa hal baik yang bisa kamu lakukan di rumah?",
+          "pilihan": ["Membiarkan ayah mengerjakaan PR", "Mengganggu adik sampai menangis", "Membantu ibu menyapu rumah", "Mengambil barang milik kakak tanpa izin"],
+          "jawaban": "Membantu ibu menyapu rumah"
+        },
+        {
+          "soal": "Gotong royong mendahulukan kepentingan…",
+          "pilihan": ["Pribadi", "Bersama", "Keluarga", "Sendiri"],
+          "jawaban": "Bersama"
+        },
+        {
+          "soal": "Dino adalah anak yang suka berbagi dan bersikap adil. Sikap sakti termasuk ke dalam Pancasila sila ke…",
+          "pilihan": ["5", "4", "2", "1"],
+          "jawaban": "5"
+        }
+      ]
+    },
+    "2": {
+      "id": "2",
+      "level": "Level 2",
+      "time": "3",
+      "questionList": [
+        {
+          "soal": "Proses penunjukan pengurus organisasi dengan cara ditunjuk langsung oleh seluruh anggota organisasi disebut ….",
+          "pilihan": ["Interpelasi", "Demokrasi", "Aklamasi", "Instruksi"],
+          "jawaban": "Aklamasi"
+        },
+        {
+          "soal": "Kegiatan yang dilakukan dalam berorganisasi bertujuan untuk....",
+          "pilihan": ["Kepentingan golongan", "Kepentingan pribadi", "Kepentingan kelompok", "Kepentingan bersama"],
+          "jawaban": "Kepentingan bersama"
+        },
+        {
+          "soal": "Berikut ini tindakan yang menunjukkan sikap menjaga keutuhan Indonesia yaitu….",
+          "pilihan": ["Memusuhi umat agama lain", "Membabat hutan dengan semena-mena", "Menghormati teman yang berbeda suku", "Membuat kerusuhan pada hari besar agama lain"],
+          "jawaban": "Menghormati teman yang berbeda suku"
+        },
+        {
+          "soal": "Tanggung jawab setiap warga negara adalah ….",
+          "pilihan": ["Menjaga persatuan dan kesatuan bangsa dengan menghindari sikap dan perilaku yang diskriminatif", "Mempunyai kebebasan memeluk dan menjalankan agama yang mereka percayai", "Memiliki kedudukan yang sama di mata hukum", "Menyuarakan pendapat mereka"],
+          "jawaban": "Menjaga persatuan dan kesatuan bangsa dengan menghindari sikap dan perilaku yang diskriminatif"
+        },
+        {
+          "soal": "Setiap siswa harus menjaga sarana pendidikan yang ada di sekolah dengan baik. Ketika sarana tidak dijaga dengan baik maka sarana belajarnya akan rusak sehingga kegiatan belajar akan terganggu. Supaya kegiatan belajar berjalan dengan baik maka siswa harus menjalankan …. Sebagai siswa dengan penuh tanggung jawab.",
+          "pilihan": ["Kewajiban", "Hak", "Sikap", "Norma"],
+          "jawaban": "Kewajiban"
+        },
+        {
+          "soal": "Hak seorang siswa di sekolah adalah ….",
+          "pilihan": ["Ikut bertanggung jawab atas kebersihan, keamanan, dan ketertiban sekolah", "Melengkapi diri dengan keperluan sekolah", "Memperoleh pendidikan agama sesuai dengan agama yang dianutnya", "Menghormati guru dan saling menghargai antar sesama murid"],
+          "jawaban": "Memperoleh pendidikan agama sesuai dengan agama yang dianutnya"
+        },
+        {
+          "soal": "Keadaan untuk menerima akibat dari perbuatan, baik yang dilakukan sendiri maupun yang dilakukan bersama dengan orang lain disebut….",
+          "pilihan": ["Tanggung jawab", "Kewajiban", "Hak", "Norma"],
+          "jawaban": "Tanggung jawab"
+        },
+        {
+          "soal": "Dalam pasal 28 UUD 1945, organisasi disebut juga dengan istilah…",
+          "pilihan": ["Berserikat", "Bertukar pikiran", "Berkelompok", "Bekerja sama"],
+          "jawaban": "Berserikat"
+        },
+        {
+          "soal": "Contoh organisasi non pemerintah adalah…",
+          "pilihan": ["Satuan Polisi Pamong Praja", "Dinas Pendidikan dan Kebudayaan", "Partai politik", "Dinas Perhubungan"],
+          "jawaban": "Partai politik"
+        },
+        {
+          "soal": "Berikut adalah contoh organisasi profesi, kecuali…",
+          "pilihan": ["Ikatan Dokter Indonesia (IDI)", "Satuan Polisi Pamong Praja", "Perhimpunan Pengusaha Muda Indonesia", "Aliansi Jurnalis Independen"],
+          "jawaban": "Satuan Polisi Pamong Praja"
+        }
+      ]
+    },
+    "3": {
+      "id": "3",
+      "level": "Level 3",
+      "time": "3",
+      "questionList": [
+        {
+          "soal": "Kebebasan berorganisasi yang bertanggung jawab artinya…",
+          "pilihan": ["Ingin menang sendiri", "Memperhatikan nilai dan norma yang dianut masyarakat", "Membatasi diri dalam bersosialisasi", "Mengajak teman berorganisasi secara paksa"],
+          "jawaban": "Memperhatikan nilai dan norma yang dianut masyarakat"
+        },
+        {
+          "soal": "Berikut adalah beberapa Undang-undang tentang kebebasan berorganisasi, kecuali…",
+          "pilihan": ["UU RI No. 9 tahun 1998 tentang kemerdekaan menyampaikan pendapat di muka umum", "UU RI No. 31 tahun 2002 tentang partai politik", "UU RI No. 32 tahun 2002 tentang penyiaran", "UU RI No. 40 tahun 2003 tentang DPR, DPRD, dan DPD"],
+          "jawaban": "UU RI No. 40 tahun 2003 tentang DPR, DPRD, dan DPD"
+        },
+        {
+          "soal": "Yang bukan termasuk hak pengurus OSIS di sekolah adalah…",
+          "pilihan": ["Mendapatkan perlakuan yang sama sesuai dengan minat, bakat dan kemampuan siswa", "Memilih dan dipilih oleh anggota lain sebagai perwakilan kelas atau pengurus OSIS", "Menyampaikan pendapat secara lisan dan tulisan", "Tidak mengikuti jam kelas untuk mengurus acara"],
+          "jawaban": "Tidak mengikuti jam kelas untuk mengurus acara"
+        },
+        {
+          "soal": "Kewajiban pengurus OSIS terhadap sekolah adalah...",
+          "pilihan": ["Memastikan tidak ada siswa yang melanggar aturan", "Memelihara nama baik dan kehormatan sekolah", "Menggantikan guru dalam membina siswa yang memerlukan bantuan", "Melakukan dana usaha untuk tambahan dana sekolah"],
+          "jawaban": "Memastikan tidak ada siswa yang melanggar aturan"
+        },
+        {
+          "soal": "Pencetus organisasi Pramuka dunia adalah…",
+          "pilihan": ["Robert Baden-Powell", "RCL Senduk", "Bahder Djohan", "Soe Hok Gie"],
+          "jawaban": "Robert Baden-Powell"
+        },
+        {
+          "soal": "Vernon suka mencoret-coret meja di kelas. Akibatnya ia dimarahi guru. Sikap Vernon sebaiknya…",
+          "pilihan": ["Berjanji tidak mengulangi", "Marah pada guru", "Mengabaikan guru", "Mencoret meja lebih banyak"],
+          "jawaban": "Berjanji tidak mengulangi"
+        },
+        {
+          "soal": "Lisa bertemu dengan teman baru di sekolah. Sebaiknya sikap yang Lisa lakukan adalah…",
+          "pilihan": ["Memusuhinya", "Memarahinya", "Diam saja", "Mengajak berkenalan"],
+          "jawaban": "Mengajak berkenalan"
+        },
+        {
+          "soal": "Peraturan dibuat agar hidup kita menjadi…",
+          "pilihan": ["Sepi", "Tertib", "Kacau", "Berantakan"],
+          "jawaban": "Tertib"
+        },
+        {
+          "soal": "Setiap hari Senin di sekolah mengadakan upacara bendera. Sikap kita sebaiknya…",
+          "pilihan": ["Mengikutinya dengan tertib", "Datang terlambat", "Tidak pernah ikut", "Alasan ke UKS"],
+          "jawaban": "Mengikutinya dengan tertib"
+        },
+        {
+          "soal": "Bunyi sila pada simbol pohon beringin adalah…",
+          "pilihan": ["Ketuhanan Yang Maha Esa", "Keadilan Sosial Bagi Seluruh Rakyat Indonesia", "Kemanusiaan Yang Adil dan Beradab", "Persatuan Indonesia"],
+          "jawaban": "Persatuan Indonesia"
+        }
+      ]
+    }
+  }
+}

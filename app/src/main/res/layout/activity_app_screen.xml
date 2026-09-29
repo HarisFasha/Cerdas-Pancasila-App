@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AppScreen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/img" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:text="Cerdas Pancasila "
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+       />
+
+
+
+        <ImageButton
+            android:layout_marginTop="30dp"
+            android:id="@+id/bt_playQuiz"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon_play"
+            android:padding="1dp"
+            android:elevation="20dp"
+            android:scaleType="fitCenter"
+            android:background="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/bt_playQuiz"
+            android:text="Main"
+            android:textColor="#3D1E1D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="2dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/bt_settings"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icon_settings"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pengaturan"
+                android:textColor="#3D1E1D"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingBottom="2dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/bt_info"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icon_question"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Informasi"
+                android:textColor="#3D1E1D"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingBottom="2dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

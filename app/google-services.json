@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "717001126062",
+    "firebase_url": "https://kuispancasila-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kuispancasila",
+    "storage_bucket": "kuispancasila.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717001126062:android:3ab69163a3f89ae3ce3d3f",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBgQXvnLp3uRFS4Vti75y-yG5Wpevs0iw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

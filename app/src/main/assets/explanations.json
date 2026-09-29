@@ -1,0 +1,23 @@
+[
+  {
+    "id": 3,
+    "level" : "Level 3",
+    "imageName": "image1.png",
+    "title": "Ir. Soekarno",
+    "description": "Ir. Soekarno adalah presiden pertama Republik Indonesia sekaligus bapak proklamator Republik Indonesia bersama dengan Mohammad Hatta. Soekarno atau yang biasa dipanggil Bung Karno merupakan bapak bangsa yang telah berhasil mengahrumkan nama baik Indonesia dan menjadi pionir dalam perjuangan bangsa Indonesia melawan penjajahan di Indonesia\n"
+  },
+  {
+    "id": 6,
+    "level" : "Level 6",
+    "imageName": "image2.png",
+    "title": "Garuda Pancasila",
+    "description": "Burung garuda merupakan lambang resmi dari Negera Republik Indonesia yang pada perisainya terdapat lima simbol Pancasila serta terdapat pita yang dicengkam oleh burung garuda dengan tulisan “Bhineka Tunggal Ika” yang bermakna berbeda-beda tetapi tetap satu jua.\n"
+  },
+  {
+    "id": 9,
+    "level" : "Level 9",
+    "imageName": "image3.png",
+    "title": "Istana Negara",
+    "description": "Istana Negara adalah salah satu istana kepresidenan Indonesia yang terletak di Jakarta. Sebagai salah satu dari enam istana kepresidenan yang ada di Indonesia, Istana Negara berfungsi sebagai tempat resmi Presiden Republik Indonesia untuk menjalankan tugas-tugas kenegaraan. Terletak di pusat kota Jakarta, istana ini memiliki desain arsitektur yang megah dan menjadi simbol penting dalam sejarah dan pemerintahan Indonesia. Selain berfungsi sebagai tempat kerja, Istana Negara juga sering digunakan untuk acara-acara resmi dan kenegaraan."
+  }
+]

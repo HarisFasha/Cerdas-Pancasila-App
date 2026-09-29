@@ -1,0 +1,191 @@
+<!-- res/layout/activity_explanation.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/green">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/imageViewExplanationLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/imageViewExplanationBg"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/quiz_background" />
+
+            <ImageView
+                android:id="@+id/imageViewExplanation"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_launcher_foreground" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_below="@id/imageViewExplanationLayout"
+            android:paddingBottom="40dp"
+            android:layout_centerHorizontal="true"
+            android:text="Garuda Pancasila"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:background="@drawable/title_bg"
+            android:textColor="#301D21"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/buttonPlayAudio"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/textViewTitle"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_sound_on"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"/>
+
+        <LinearLayout
+            android:id="@+id/textViewExplanationCOntainer"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+            android:layout_below="@id/buttonPlayAudio">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="10dp"
+                android:background="@drawable/question_bg"
+                android:gravity="center">
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/textViewExplanation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#322024"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
+
+                </ScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/nextLevel_bg"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewExplanationCOntainer"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:visibility="gone"
+            >
+
+            <ImageButton
+                android:id="@+id/buttonNextLevel"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:src="@drawable/text_bg"
+                android:padding="1dp"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Level Berikutnya"
+                android:textColor="#3D1E1D"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:paddingBottom="2dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/back_bg"
+            android:layout_width="200dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nextLevel_bg"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            >
+
+            <ImageButton
+                android:id="@+id/buttonBack"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:src="@drawable/text_bg"
+                android:padding="1dp"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Kembali"
+                android:textColor="#3D1E1D"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:paddingBottom="2dp"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/repeatLevel_bg"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/back_bg"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            >
+
+            <ImageButton
+                android:id="@+id/buttonRepeatLevel"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:src="@drawable/text_bg"
+                android:padding="1dp"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Ulangi Level"
+                android:textColor="#3D1E1D"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:paddingBottom="2dp"/>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>
